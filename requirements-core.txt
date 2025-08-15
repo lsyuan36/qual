@@ -1,0 +1,42 @@
+# Qualcomm AI Hub 大規模模型雲端部署項目依賴
+
+# 核心 AI 框架
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.45.0
+accelerate==1.10.0
+
+# ONNX 相關
+onnx==1.16.2
+onnxruntime==1.22.0
+
+# Qualcomm AI Hub
+qai-hub==0.31.0
+qai-hub-models==0.33.1
+
+# 數據處理
+numpy==1.26.4
+datasets==2.17.0
+h5py==3.14.0
+
+# 工具庫
+requests==2.32.3
+beautifulsoup4==4.13.4
+tqdm==4.67.1
+pyyaml==6.0.2
+packaging==25.0
+filelock==3.19.1
+
+# 開發工具
+ipython==8.31.0
+jupyter==1.1.1
+matplotlib==3.9.5
+
+# 系統工具
+coloredlogs==15.0.1
+psutil==6.1.7
+gitpython==3.1.42
+
+# 網路工具
+aiohttp==3.12.15
+certifi==2025.8.3
